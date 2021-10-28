@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="outer-container">
+        <img src="image/images.jpeg" alt="backgroundImage" id="background">
+        <audio src="music/HARAM HARAM.mp3" id="track"></audio>
+    </div>
+
+    <div class="player-container">
+<img src="image/images.jpeg" alt="musicImage" id="thumbnail">
+
+<div class="box">
+
+    <div class="play-pause">
+        <i class="fa fa-play" id="play" title="Play"></i>
+        <i class="fa fa-pause" id="pause" title="Pause"></i>
+    </div>
+
+    <div class="track-info">
+        <div id="trackArtist">track Artist</div>
+        <div id="trackTitle">track Title</div>
+    </div>
+
+<div class="next-prev">
+    <i class="fa fa-fast-backward" id="prevTrack" title="Prev"></i>
+    <i class="fa fa-fast-forward" id="nextTrack" title="Next"></i>
+</div>
+
+<div class="progress-bar">
+    <input type="range" id="progressBar" min="0" max="" value="0">
+</div>
+
+<div class="track-time">
+    <div id="currentTime"></div>
+    <div id="durationTime"></div>
+</div>
+
+
+</div>
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
